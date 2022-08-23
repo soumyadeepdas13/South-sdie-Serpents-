@@ -1,0 +1,78 @@
+*
+{
+margin: 0;
+padding: 0;
+}
+body
+{
+width: 100vw;
+height: 100vh;
+background-color: #187d9c;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.main
+{
+width: 350px;
+height: 450px;
+border-radius: 4px;
+background-color: #face30;
+background-image: url(A.jpg);
+background-size: contain;
+background-repeat: no-repeat;
+position: relative;
+background-position: center;
+margin-right: 5px;
+margin-left: 5px;
+cursor: pointer;
+}
+.content
+{
+width: 90%;
+height: 20%;
+background-color: #fff;
+position: absolute;
+top: 400px;
+left: 25px;
+border-radius: 4px;
+overflow: hidden;
+transition: 0.5s;
+text-align: center;
+box-shadow: 0px 3px 4px 0px rgb(0 0 0 / 15%);
+}
+.content h1
+{
+color: #000;
+font-family: arial;
+font-size: 25px;
+padding-top: 20px;
+}
+.content h6
+{
+color: #e33;
+font-size: 14px;
+font-family: arial;
+padding-top: 10px;
+}
+.content p
+{
+font-family: arial;
+color: grey;
+line-height: 35px;
+letter-spacing: 1px;
+padding-top: 10px;
+}
+.main:hover .content
+{
+height: 55%;
+top: 300px;
+}
+.a
+{
+background-image: url(B.jpg.jpeg);
+}
+.b
+{
+background-image: url(C.jpg.jpeg);
+}
